@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanic Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mechanic Finder</h1>
+    </header>
+    <main>
+        <section id="register">
+            <h2>Register as a Mechanic</h2>
+            <form id="mechanic-form">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="text" id="location" placeholder="Location (City/Area)" required>
+                <input type="text" id="contact" placeholder="Contact Number" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="search">
+            <h2>Find a Mechanic</h2>
+            <input type="text" id="search-input" placeholder="Enter City/Area">
+            <button id="search-btn">Search</button>
+            <ul id="mechanic-list"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
